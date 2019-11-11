@@ -1,0 +1,43 @@
+/* **************** */
+/* HERO SECTION */
+/* **************** */
+
+.navbar{
+    background: #4633af !important;
+    transition: all 0.2s;
+}
+
+/* **************** */
+/* HERO SECTION */
+/* **************** */
+
+.section-hero{
+    padding: 200px 0px;
+    background: url(../img/section-hero/hero-background.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* **************** */
+/* OPINIONS SECTION */
+/* **************** */
+
+.section-opinions{
+    padding: 100px 0px;
+    background: #262431;
+}
+
+#carouselOptions > .carousel-inner{
+    padding: 0px 80px;
+}
+
+
+/* **************** */
+/* MEDIA QUERY */
+/* **************** */
+
+@media (min-width: 992px){
+    /* NAVBAR */
+    .navbar{
+        background: transparent !important;
+    }
+}
