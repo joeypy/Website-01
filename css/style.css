@@ -30,6 +30,51 @@
     padding: 0px 80px;
 }
 
+/* **************** */
+/* FEATURES SECTION */
+/* **************** */
+
+.section-features{
+    padding: 160px 0px;
+    background: #2f2c3d;
+}
+.heading-section{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.card-icon > i {
+    font-size: 55px;
+}
+
+/* SETTINGS NAV */
+.box-image{
+    padding-top: 20px;
+}
+
+/*  NAVTABS */
+.nav-tabs{
+    justify-content: center;
+    border: none;
+}
+.nav-tabs > .nav-link{
+    margin: 10px 0px 20px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 3px solid #f1f1f8;
+    color: #f1f1f8;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+
+.nav-tabs > .nav-link.active,
+.nav-tabs > .nav-link:hover{
+    border-bottom: 0.1875rem solid #00c9db;
+    background-color: transparent;
+    color: #00c9db;
+}
+
 
 /* **************** */
 /* MEDIA QUERY */
